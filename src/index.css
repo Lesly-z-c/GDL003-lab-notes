@@ -1,13 +1,94 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.allnote {
+
+
+  background-color: rgb(238, 212, 215);
+  color: black;
+  padding-top: 9%;
+  font-family: Arial;
+  text-align: center;
+  margin-inline-end: 5%;
+  margin-inline-start: 5%;
+  padding: 5%;
+  margin-bottom: 5%;
+  margin-top:5%;
+  position: flex;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+
+.textnote{
+  margin-inline-start: 1%;
+  width: 60%;
+  margin-inline-end: 0%;
+  margin-left: 0%;
+  padding: 3%;
+  position: static;
+  margin-block: 0%;
+  padding-top: 2px solid #000;
+  bottom: 0;
+}
+.submit{
+  position: float;
+  margin: 2%;
+  padding: 4%;
+  border-radius: 50%;
+}
+
+.addnote{
+  border: 0%;
+  text-align: center;
+  margin-inline-start: 1%;
+  margin-inline-end: 3%;
+ 
+  position : inline;
+}
+.delete, .edit{
+  margin-top:0%;
+  border: 1%;
+ float: right;
+ cursor:pointer;
+ cursor:hand;
+ 
+}
+.google, .facebook, .e-mail{
+  top: 50%;
+   margin-top: 2%;
+  height: 45px;
+  border-radius: 7px;
+  border: solid 1px #d0d0d0;
+  cursor: pointer;
+  background-color: #ffffff;
+  display: block;
+  bottom: 5%;
+  width: 70%;
+  position: relative;
+  
+ 
+  
+  
+
+}
+h1{
+font-family: rochester;
+
+}
+footer {
+  text-align: center;
+  font-family: sans-serif;
+  color: whitesmoke;
+  width: 100%;
+  position:static;
+  padding: 5%;
+  margin-bottom: -10%;
+  bottom: 0%;
+  position: fixed;
+  left: 0%;
+  width: 100%;
+
+}
+body{
+  background-image: url(https://i.pinimg.com/originals/63/b3/6f/63b36fbf3c5cb77d420af15a2c9852f3.jpg);
+  position: relative;
+  margin-left: -8px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
