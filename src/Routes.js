@@ -10,9 +10,9 @@ import Delete from './Delete';
  const Routes = () => {
      return (
          <Switch>
-            <Route exact path= '/aut' component= {Aut} />
+            <Route exact path= '/' component= {Aut} />
             <Route path='/create' component = {Create}/>  
-            <Route path='/create' component = {Delete}/> 
+            <Route path='/delete' component = {Delete}/> 
             <Route path='/register' component = {Register}/>      
             <Route path='/logout' component = {Logout}/> 
        

@@ -77,7 +77,7 @@ import Send from './img/send.png';
                         return (
                      <form className='allnote'>
                          
-                         <Edit id={note.id}/> <Delete id={note.id}/>
+                         <Edit id={note.id}/> <Delete id={note.id}/> 
                         <p>{note.note}</p>
                        
                     </form>)
